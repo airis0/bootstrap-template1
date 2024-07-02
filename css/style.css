@@ -1,0 +1,92 @@
+body {
+  padding-top: 56px;
+}
+
+.jumbotron { 
+  background:url(./../images/top-img.jpg) center no-repeat;
+  background-size: cover;
+  height: 430px;
+}
+
+.jumbotron .container{
+  text-align: center;
+  color: lightseagreen;
+}
+
+.jumbotron .container h1{
+  font-size: 350%;
+}
+
+.jumbotron .container p{
+  font-size: 170%;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+#introduction-text{
+  text-align: center;
+  background-color: lightgray;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+#page-title{
+  text-align: center;
+  margin-top: 8%;
+  background-color: lightslategray;
+}
+
+table , td, th {
+  border: 1px solid #595959;
+  border-collapse: collapse;
+}
+  
+td ,th {
+  padding: 10px;
+}
+
+#table-block{
+  text-align: center;
+  margin: 5% 0 5% 0;
+}
+
+#table-block table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact{
+  text-align: center;
+  margin: 3% 0 5% 0;
+}
+
+form>label>input , textarea{
+  width:300px;
+}
+
+#page-img{
+  max-width: 70%;
+  max-height: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+#page-contents{
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+#page-contents>ul{
+  margin-top: 5%;
+}
+
+#page-contents>ul>li{
+  list-style: none;
+}
+
+#page-contents>h3{
+  background-color: lightsteelblue;
+  margin-top: 5%;
+}
